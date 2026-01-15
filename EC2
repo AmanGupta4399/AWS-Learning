@@ -1,8 +1,8 @@
-Learning : how to create instances 
-how to create AMI
-how to create instances by using AMI
-how to create templates and to use that templated for new instance
-how to create user in IAM 
+Learn how to create instances 
+Learn how to create AMI
+Learn how to create instances by using AMI
+Learn how to create templates and to use that templated for new instance
+Learn how to create user in IAM 
 Dashboards : In this we get overview that how many instances , key pairs , snapshots, volumes , load balancer etc are running in 
 EC2 global view :
 Region Explorer -In  this we can see that in which region how many instances are running which are owned by me , which help us to know about my instance and can save our money.
@@ -11,3 +11,14 @@ Availablity zone - in this we get zone name with its loaction and region
 Events - in this we get notofications if any mishappening occurs in AWS like any region or zone is out or any other event 
 instances are categised in several groups(General purpose ,Compute optimized, Memory optimized, storage optimized, HAC optimized)
 Genral purpose - General purpose instances provide a balance of compute, memory and networking resources generaaly starts with 
+Compute optimized - for high processors
+Memory optimized - for high performance with large memory
+Storage optimised - They’re designed for workloads that require high, sequential read and write access to very large data sets
+Templates - we create  one or more template to craete instances from that,  which already consists all information for that instance (means we dont enter details for our machine manually it takes that information from template )
+AMI(Machine image) - backup of our instance will show here as well as we can create new instance by using AMI
+AMI catlog - in this we can see AMI owned by me , community 
+Elastic ips - when we start or stop ur machine its private ip always change so for not this we create elastic ips
+EBS volume (elastic block store) every instance is connected with EBS volume which stores data , we  can extend ebs volume, it is network drive 
+Availability zone for instance and EBS will same (we cant connect my EBS with another Instance of diff availablity zone)
+One EBS can connect with one istance only at a time (but we can connect multiple EBS with single isntance)
+Security group - in this we configure traffic of our  instance , we can add multiple security group to one instance
