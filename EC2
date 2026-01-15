@@ -22,3 +22,8 @@ EBS volume (elastic block store) every instance is connected with EBS volume whi
 Availability zone for instance and EBS will same (we cant connect my EBS with another Instance of diff availablity zone)
 One EBS can connect with one istance only at a time (but we can connect multiple EBS with single isntance)
 Security group - in this we configure traffic of our  instance , we can add multiple security group to one instance
+load balancer - to reduce server response time we use load balancer (by using this we hit load balancer directly instead of isntance)
+load balancer uses round robin algorithm
+4 types of load balancer(classic, appliacation, network, gateway) network works on transport layer , application works on appl.layer
+
+
