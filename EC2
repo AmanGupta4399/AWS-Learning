@@ -1,0 +1,13 @@
+Learning : how to create instances 
+how to create AMI
+how to create instances by using AMI
+how to create templates and to use that templated for new instance
+how to create user in IAM 
+Dashboards : In this we get overview that how many instances , key pairs , snapshots, volumes , load balancer etc are running in 
+EC2 global view :
+Region Explorer -In  this we can see that in which region how many instances are running which are owned by me , which help us to know about my instance and can save our money.
+Region & Zones - in this we get region name with its code as well as geographic ares like (Asia, Europe , USA etc)
+Availablity zone - in this we get zone name with its loaction and region
+Events - in this we get notofications if any mishappening occurs in AWS like any region or zone is out or any other event 
+instances are categised in several groups(General purpose ,Compute optimized, Memory optimized, storage optimized, HAC optimized)
+Genral purpose - General purpose instances provide a balance of compute, memory and networking resources generaaly starts with 
