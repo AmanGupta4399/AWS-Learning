@@ -13,6 +13,8 @@ To add user in a user groups
 To access any user by CLI
 
 What is User Groups
+
+What is Roles
 # IAM 
 Identify & Access Managment 
 
