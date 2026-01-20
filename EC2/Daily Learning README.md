@@ -101,6 +101,27 @@ An Amazon Machine Image (AMI) is a pre-configured template that contains the inf
  we can add multiple protocols in a single loader
  # Netwrork Load balancer
  it works on transport layer , it uses protocols like TCP , UPD etc
+ # Auto Scaling
+ Amazon EC2 Auto Scaling helps you ensure that you have the correct number of Amazon EC2 instances available to handle the load for your application
+
+
+ In this we specify minimum and maximun number of instances for auto scaling group
+
+ For auto scaling we need template and load balancer 
+
+ While creating auto scaling we have always to put min and max number of instances .
+
+ After launching 0f auto scaling you will see that one instance will automatically goes in running state 
+
+ if we delete our autro scaling group , our instance will also delete but(template & Load balancer will not delete automatically)
+
+ It is of two types : (vertical & horizontal)
+
+ Vetrical Auto Scaling - in this we have only 1 machine (means we always increase the size of same machine)
+
+ Horizontal Auto Scaling - in this we not increase the size of same machine , we create new machine )
+
+ Most common used auto scaling is horizontal auto scaling
   
    
 
